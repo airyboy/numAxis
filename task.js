@@ -140,10 +140,6 @@ $(document).ready(function() {
         }
       });
     };
-
-    this.reset = function() {
-
-    };
   };
 
   var draw = SVG("drawing").size(800, 300);;
