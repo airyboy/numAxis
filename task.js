@@ -24,10 +24,6 @@ $(document).ready(function() {
       draw.path(str).attr({ stroke: "red", fill: "none", width: 3 });
     };
 
-    var calcArcXCenter = function(x1, x2) {
-      return (x2 - x1) * stepLength / 2;
-    };
-
     var calcTextboxTopLeft = function(x1, x2) {
       var offset = x1 * stepLength;
       var x = startOffsetX + offset + (x2 - x1) * stepLength / 2 + textBoxShiftX;
